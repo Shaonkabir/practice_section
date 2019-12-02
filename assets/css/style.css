@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	background:#373746;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+	color:#d3d5d8;
+}
+.section-padding {
+	padding:50px 0;
+}
+.card-section {
+    background: #2b2c3a;
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2b2c3a;
+}
+.card-section h3:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 4px;
+}
+.card-content h4 span:nth-child(1) , .static-card h4 {padding-left: 39px; font-size: 25px;}
+.card-content h4 span:nth-child(2) , 
+.right-card-content span {
+    text-transform: none;
+    color: #5c5e65;
+    font-weight: 400;
+    font-size:16px;
+    display: block;
+    padding-left: 38px;
+}
+.static-card span {padding:0;}
+.card-content svg {
+    color: #73767a;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 7px;
+}
+.card-body-container {
+    position: relative;
+    z-index: 1;
+}
+.right-card-content {
+    padding-left: 25%;
+    padding-top: 12%;
+}
+.right-card-content svg {
+    position: absolute;
+    top: 38px;
+    font-size: 23px;
+    display: inline-block;
+}
+.right-card-content h3 {
+    font-size: 28px;
+    padding-left: 35px;
+    text-transform: none;
+    color: #d3d5d8;
+}
+
+/* Second Card*/
+.card-section-right .right-card-content {
+    padding-left: 0;
+}
+.card-section-right .right-card-content h1 {
+	color:#d3d5d8;
+}
+.card-section-right .right-card-content h1 span{padding-left: 15px;}
+.card-section-right .right-card-content svg {
+    font-size: 50px;
+    left: 21px;
+    color: #c64f48;
+}
+.card-section-right .static-card {
+    position: relative;
+    padding-left: 35px;
+    margin-top: -13px;
+}
+.card-section-right .static-card::before {
+    position: absolute;
+    left: -22px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    content: '';
+    background: #373843;
+}
